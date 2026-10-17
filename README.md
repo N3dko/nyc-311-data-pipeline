@@ -39,6 +39,16 @@ Run `bash run_pipeline.sh YYYY-MM-DD` for each additional day.
 
 ## Reporting notes
 
+## Power BI report
+
+### Overview
+
+![NYC 311 overview](screenshots/overview.png)
+
+### Hotspots
+
+![NYC 311 hotspots](screenshots/hotspots.png)
+
 The SQL views currently report on October 6–12, 2026. Average time to close uses closed requests with a nonnegative difference between `closed_date` and `created_date`. It represents the recorded elapsed time; reassigned or reopened requests are not identified separately.
 
 The pipeline runs for dates you provide. It is not a live feed.
